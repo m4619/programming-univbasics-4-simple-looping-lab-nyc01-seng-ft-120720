@@ -16,14 +16,7 @@ def loop_message_n_times(message, num = 5)
   end
 end
 
-def output_array(array) 
-  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"] 
-  count = 0 
-  while count < array.length do 
-    puts array[count]
-    count += 1 
-  end
-end
+
 
 def return_string_array(array)
   my_numbers = [5, 4, 3, 2, 1] 
