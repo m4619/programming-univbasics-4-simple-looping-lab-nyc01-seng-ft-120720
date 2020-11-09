@@ -8,15 +8,15 @@ def loop_message_five_times(string)
   end
 end
 
-def loop_message_n_times(message, num = 5)
+
+
+def output_array(array)
   count = 0
-  while count < num do 
-    puts "Hello Moon."
-    count += 1 
+  while count < array.length do
+    puts array[count]
+    count += 1
   end
 end
-
-
 
 def return_string_array(array)
   my_numbers = [5, 4, 3, 2, 1] 
